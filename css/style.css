@@ -3,21 +3,19 @@
     margin:0;
     padding:0;
 }
-.container{
-    width:75%;
-    margin:auto;
-}
 nav{
-    background-color: brown;
-    border-left: 40px black solid;
-    padding-left: 1%;
+    margin-bottom: 5%;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    padding-right: 5px;
 }
 ul{
     list-style: none;
 }
 a{
     text-decoration: none;
-    color:white;
+    color:black;
     font-size: 30px;
 }
 a:hover{
@@ -26,8 +24,9 @@ a:hover{
 
 .issue{
     border: 3px dotted;
-    margin: 15px;
-    margin-bottom: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 90%;
 }
 
 .row1{
@@ -40,14 +39,14 @@ a:hover{
 
 .box{
     width: 250px;
-    height: 250px;
+    height: 500px;
     border:3px solid;
     padding:5px;
     margin:15px;
 }
 .box2{
     width: 250px;
-    height: 400px;
+    height: 500px;
     border:3px solid;
     padding:5px;
     margin:15px;
@@ -55,20 +54,19 @@ a:hover{
 
 /* Row 1*/
 .box:nth-of-type(1){
-    flex: 1;
-}
-.box:nth-of-type(2){
     flex: 2;
 }
+.box:nth-of-type(2){
+    flex: 1.5;
+}
 .box:nth-of-type(3){
-    flex: 1;
+    flex: 1.5;
 }
 
 /* Row 2*/
 .box2:nth-of-type(1){
-    flex: 3;
+    flex: 1;
 }
 .box2:nth-of-type(2){
-    flex: 5;
-    background-image:url('../images/51853jpsdl.jpg');
+    flex: 1;
 }
