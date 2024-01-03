@@ -3,20 +3,24 @@
     margin:0;
     padding:0;
 }
+.container{
+    background-color: black;
+}
 nav{
     margin-bottom: 5%;
-    background-color: white;
     width: fit-content;
     height: fit-content;
     padding-right: 5px;
+    margin-left: auto;
+    margin-right: 0px;
 }
 ul{
     list-style: none;
 }
 a{
     text-decoration: none;
-    color:black;
     font-size: 30px;
+    color:white;
 }
 a:hover{
     text-decoration: underline;
@@ -24,6 +28,7 @@ a:hover{
 
 .issue{
     border: 3px dotted;
+    border-color: white;
     margin: auto;
     margin-bottom: 20px;
     width: 90%;
@@ -39,10 +44,12 @@ a:hover{
 
 .box{
     width: 250px;
-    height: 500px;
+    height: 600px;
     border:3px solid;
     padding:5px;
     margin:15px;
+    background-color: white;
+    border-color: white;
 }
 .box2{
     width: 250px;
@@ -50,11 +57,17 @@ a:hover{
     border:3px solid;
     padding:5px;
     margin:15px;
+    background-color: white;
+    border-color: white;
 }
 
 /* Row 1*/
 .box:nth-of-type(1){
     flex: 2;
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 .box:nth-of-type(2){
     flex: 1.5;
@@ -69,4 +82,8 @@ a:hover{
 }
 .box2:nth-of-type(2){
     flex: 1;
+}
+
+footer{
+    color:white;
 }
