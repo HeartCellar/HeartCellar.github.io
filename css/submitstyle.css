@@ -1,11 +1,35 @@
-a
- {
+.container{
+    background-color: black;
+    box-sizing: border-box;
+    margin:0%;
+    padding:0;
+}
+body{
     background-color: black;
 }
-
+nav{
+    background-color: black;
+    margin-bottom: 5%;
+    width: fit-content;
+    height: fit-content;
+    padding-right: 5px;
+    margin-left: auto;
+    margin-right: 0px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+}
+a:hover{
+    text-decoration: underline;
+}
 
 .header1{
-    color:maroon;
+    color:rgb(255, 255, 255);
     font-family: 'EB Garamond';
         src:
         url('fonts/ebgaramond-regular.woff2') format('woff2'),
