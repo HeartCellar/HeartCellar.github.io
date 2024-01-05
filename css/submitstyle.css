@@ -1,3 +1,22 @@
-h2{
+a
+ {
+    background-color: black;
+}
+
+
+.header1{
     color:maroon;
+    font-family: 'EB Garamond';
+        src:
+        url('fonts/ebgaramond-regular.woff2') format('woff2'),
+        url('fonts/ebgaramond-regular.woff') format('woff'),
+        url('fonts/ebgaramond-regular.otf') format('opentype'); 
+       
+        font-weight: normal;
+        font-style: normal;
+      }
+      
+.container{
+    width : 800px;
+    margin : auto; 
 }
