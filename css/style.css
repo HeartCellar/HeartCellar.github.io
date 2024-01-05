@@ -71,6 +71,7 @@ a:hover{
 }
 .box:nth-of-type(2){
     flex: 1.5;
+    background-image: url(https://drive.google.com/file/d/15z5UZ34t3Uyp3TQMLpkdT5_LH0ASmy1g/view?usp=sharing)
 }
 .box:nth-of-type(3){
     flex: 1.5;
