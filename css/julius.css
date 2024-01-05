@@ -23,9 +23,13 @@ a{
     font-size: 30px;
     color:white;
 }
+footer{
+    color: white;
+}
 a:hover{
     text-decoration: underline;
 }
-.essay_title{
-    color: white;
+.essay{
+    color:white;
+    text-align: center;
 }
