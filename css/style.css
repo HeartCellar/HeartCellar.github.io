@@ -5,7 +5,7 @@
 
 }
 body{
-    background-color: black;
+    background-color: #251c25;
     font-family: 'EB Garamond', serif;
 }
 nav{
@@ -17,9 +17,23 @@ nav{
     margin-right: 45px;
     padding-top: 15px;
 }
+
+header{
+    display: flex;
+}
+
 ul{
     list-style: none;
 }
+img{
+    max-width: 300px;
+    padding-left: 5px;
+    margin-right: auto;
+    margin-left: 45px;
+    padding-top: 15px;
+    margin-bottom: 3%;
+}
+
 a{
     text-decoration: none;
     font-size: 30px;

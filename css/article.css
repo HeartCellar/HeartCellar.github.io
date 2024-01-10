@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: #251c25;
     font-family: 'EB Garamond', serif;
 }
 
@@ -38,32 +38,43 @@ footer {
     color: white;
 }
 
+.article{
+    margin: auto;
+    width: 60%;
+}
+
 .essay_title {
+    background-color: grey;
     color: white;
     text-align: center;
-    font-size: x-large;
-    margin-bottom: 5px;
-    font-style: italic;
+    font-size: 75px;
     font-style: bold;
+    flex: 1;
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-bottom: 50px;
 }
 
 .author {
     color: white;
     text-align: center;
     margin-bottom: 20px;
+    font-size: x-large;
 }
 
 .content {
-    width: 50%;
+    flex: 1.75;
+    font-size: 22px;
     margin: auto;
     color: white;
     line-height: 2;
     margin-bottom: 20px;
+    width: 70%;
 }
 
 .par {
-    text-indent: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 /*cribbed code from W3*/
@@ -85,7 +96,7 @@ footer {
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
-    font-size: medium;
+    font-size: large;
 
     /* Position the tooltip text - see examples below! */
     position: absolute;
