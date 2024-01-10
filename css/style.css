@@ -14,7 +14,8 @@ nav{
     height: fit-content;
     padding-right: 5px;
     margin-left: auto;
-    margin-right: 0px;
+    margin-right: 45px;
+    padding-top: 15px;
 }
 ul{
     list-style: none;
