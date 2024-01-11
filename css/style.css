@@ -8,6 +8,12 @@ body{
     background-color: #251c25;
     font-family: 'EB Garamond', serif;
 }
+ul{
+    list-style: none;
+}
+header{
+    display: flex;
+}
 nav{
     margin-bottom: 5%;
     width: fit-content;
@@ -15,15 +21,16 @@ nav{
     padding-right: 5px;
     margin-left: auto;
     margin-right: 45px;
-    padding-top: 15px;
-}
+    padding-top: 30px;
 
-header{
-    display: flex;
+    flex: .25;
 }
+.heart{
+    color: white;
+    flex: 2;
+    font-size: 150px;
+    padding-left: 70px;
 
-ul{
-    list-style: none;
 }
 img{
     max-width: 300px;
@@ -32,6 +39,8 @@ img{
     margin-left: 45px;
     padding-top: 15px;
     margin-bottom: 3%;
+    
+    flex: 1;
 }
 
 a{
@@ -89,6 +98,16 @@ a:hover{
 }
 .box:nth-of-type(2){
     flex: 1.6;
+}
+.imgbox{
+    background-image: url(../images/IMG_2692.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    min-width: 125px;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* Row 2*/
