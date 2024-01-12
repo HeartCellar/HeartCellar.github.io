@@ -1,24 +1,50 @@
-.container{
-    background-color: black;
+*{
     box-sizing: border-box;
-    margin:0%;
+    margin:0;
     padding:0;
+
 }
 body{
-    background-color: black;
+    background-color: #251c25;
+    font-family: 'EB Garamond', serif;
+}
+ul{
+    list-style: none;
+}
+header{
+    display: flex;
 }
 nav{
-    background-color: black;
     margin-bottom: 5%;
     width: fit-content;
     height: fit-content;
     padding-right: 5px;
     margin-left: auto;
-    margin-right: 0px;
+    margin-right: 45px;
+    padding-top: 30px;
+
+    flex: .25;
 }
-ul{
-    list-style: none;
+.heart{
+    color: white;
+    flex: 2;
+    font-size: 150px;
+    margin: auto;
+    width: 50%;
+    padding-left: 20px;
+    
 }
+img{
+    max-width: 300px;
+    padding-left: 5px;
+    margin-right: auto;
+    margin-left: 45px;
+    padding-top: 15px;
+    margin-bottom: 3%;
+    
+    flex: 1;
+}
+
 a{
     text-decoration: none;
     font-size: 30px;
@@ -26,21 +52,74 @@ a{
 }
 a:hover{
     text-decoration: underline;
+    font-style: italic;
 }
 
-.header1{
-    color:rgb(255, 255, 255);
-    font-family: 'EB Garamond';
-        src:
-        url('fonts/ebgaramond-regular.woff2') format('woff2'),
-        url('fonts/ebgaramond-regular.woff') format('woff'),
-        url('fonts/ebgaramond-regular.otf') format('opentype'); 
-       
-        font-weight: normal;
-        font-style: normal;
-      }
-      
-.container{
-    width : 800px;
-    margin : auto; 
+.issue{
+    border: 3px dotted;
+    border-color: white;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 75%;
+}
+
+.row1{
+    display: flex;
+}
+
+.row2{
+    display: flex;
+}
+
+.box{
+    width: 250px;
+    height: 600px;
+    border:3px solid;
+    padding:5px;
+    margin:15px;
+    background-color: white;
+    border-color: white;
+}
+.box2{
+    width: 250px;
+    height: 500px;
+    border:3px solid;
+    padding:5px;
+    margin:15px;
+    background-color: white;
+    border-color: white;
+}
+
+/* Row 1*/
+.box:nth-of-type(1){
+    flex: 2;
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.box:nth-of-type(2){
+    flex: 1.6;
+}
+.imgbox{
+    background-image: url(../images/IMG_2692.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    min-width: 125px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.box{
+    color: white;
+    margin-left: 40px;
+    font-size: 100px;
+
+}
+ul{
+    color: white;
+    margin-right: 20x;
+    font-size: large;
 }
