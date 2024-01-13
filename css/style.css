@@ -36,7 +36,9 @@ nav{
     position: absolute;
     z-index: 1;
     left: 160px;
-    -webkit-text-stroke: 3px black;
+    /* -webkit-text-stroke: 1px black; */
+    /* font-family: 'Nunito Sans', sans-serif; */
+    font-family: 'Raleway', sans-serif;
     font-size: 190px;
 }
 
