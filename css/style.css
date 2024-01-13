@@ -58,8 +58,6 @@ a:hover{
 }
 
 .issue{
-    border: 3px dotted;
-    border-color: white;
     margin: auto;
     margin-bottom: 20px;
     width: 75%;
@@ -100,6 +98,7 @@ a:hover{
 }
 .box:nth-of-type(2){
     flex: 1.6;
+    padding: 5px;
 }
 .imgbox{
     background-image: url(../images/IMG_2692.jpeg);
@@ -119,6 +118,7 @@ a:hover{
 .authbox{
     font-size: 33px;
     color: white;
+    text-align: center;
 }
 
 .previewbox{
@@ -127,6 +127,7 @@ a:hover{
     margin-top: 20px;
     border-style: solid;
     padding: 20px;
+    font-style: italic;
 }
 
 /* Row 2*/
