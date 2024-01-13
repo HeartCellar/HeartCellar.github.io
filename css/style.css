@@ -60,7 +60,7 @@ a:hover{
 .issue{
     margin: auto;
     margin-bottom: 20px;
-    width: 75%;
+    width: 90%;
 }
 
 .row1{
@@ -76,9 +76,16 @@ a:hover{
     height: 600px;
     border:3px solid;
     padding:5px;
-    margin:15px;
+    margin:30px;
     background-color: black;
+    transition: box-shadow .3s;
+    border-radius:10px;
 }
+
+.box:hover{
+    box-shadow: 0 0 11px white;
+}
+
 .box2{
     width: 250px;
     height: 500px;
@@ -86,6 +93,9 @@ a:hover{
     padding:5px;
     margin:15px;
     background-color: black;
+}
+.box2:hover{
+    box-shadow: 0 0 11px white;
 }
 
 /* Row 1*/
@@ -100,19 +110,22 @@ a:hover{
     flex: 1.6;
     padding: 5px;
 }
-.imgbox{
+
+/* .imgbox{
     background-image: url(../images/IMG_2692.jpeg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     min-height: 300px;
     min-width: 125px;
-    margin: 0px;
-    padding: 0px;
-}
+    position: relative;
+    bottom: 400px;
+} */
 .txtboxtitle{
     font-size: 33px;
     color: white;
+    position: relative;
+    bottom: 300px;
 }
 
 .authbox{
