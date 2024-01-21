@@ -94,9 +94,10 @@ a:hover{
 
 }
 
-.box4{
+a .box-4{
 
-    background-image: url('HC Graphics Winter 2024/Kazi Nazrul Islam - Wikipedia.jpeg');
-    background-size: cover;
+
+    background-image: url('../HC Graphics Winter 2024/Kazi Nazrul Islam - Wikipedia.jpeg')
+
 }
 
